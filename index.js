@@ -7,11 +7,13 @@
  * @authod {wickd}
  * @dependency {mongoose} http://mongoosejs.com/
  * @param  {Mongoose} mongoose Mongoose object
- * @return {Clojure}
+ * @version {1.0}
+ * @return {null}
  */
 module.exports = mongoose => {
-	 mongoose
-        .set('debug', (collectionName, method, query, doc) => {
+	mongoose
+        .set('debug', (collectionName, method, query, doc) => 
+        {
             let queryfy = typeof query == 'object' ? JSON.stringify(query) : query;
             let docfy = typeof doc == 'object' ? JSON.stringify(doc) : doc;
 
