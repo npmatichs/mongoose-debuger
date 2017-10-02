@@ -1,10 +1,12 @@
 # silence is gold
 
-# install
+# SSH
+```
+npm install git+ssh://git@github.com:npmatichs/mongoose-debuger.git --save
+```
 
-# ssh
-``` npm install git+ssh://git@github.com:npmatichs/mongoose-debuger.git --save ```
+# HTTPS
 
-# https
-
-``` npm install git+http://github.com/npmatichs/mongoose-debuger --save ```
+```
+npm install git+http://github.com/npmatichs/mongoose-debuger --save\
+```
