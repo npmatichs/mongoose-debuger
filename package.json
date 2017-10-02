@@ -1,0 +1,26 @@
+{
+  "name": "mongoose-debugger",
+  "version": "1.0.0",
+  "description": "Mongo query's debug demon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npmatichs/mongoose-debuger.git"
+  },
+  "keywords": [
+    "['mongo'",
+    "'nodejs'",
+    "'debug'",
+    "'logger'",
+    "'logs']"
+  ],
+  "author": "wickd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npmatichs/mongoose-debuger/issues"
+  },
+  "homepage": "https://github.com/npmatichs/mongoose-debuger#readme"
+}
